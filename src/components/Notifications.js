@@ -18,7 +18,7 @@ class Notifications extends AutomaticComponent {
                         ? 'int:transient:1'
                         : undefined,
                 contentImage: Mix.paths.root(
-                    'node_modules/laravel-mix/icons/laravel.png'
+                    'node_modules/pixpa-laravel-mix/icons/laravel.png'
                 )
             });
         }
