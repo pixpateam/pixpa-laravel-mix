@@ -65,13 +65,13 @@ class Preprocessor {
                                     );
                                 }
 
-                                if (Mix.inProduction()) {
-                                    plugins.push(
-                                        require('cssnano')({
-                                            preset: ['default', Config.cssNano]
-                                        })
-                                    );
-                                }
+                                // if (Mix.inProduction()) {
+                                    // plugins.push(
+                                    //     require('cssnano')({
+                                    //         preset: ['default', Config.cssNano]
+                                    //     })
+                                    // );
+                                // }
 
                                 return plugins;
                             })()
